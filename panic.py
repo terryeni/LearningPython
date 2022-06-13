@@ -26,6 +26,4 @@ plist.pop()
 plist.pop()
 plist.pop()
 '''
-
-
 print(plist)
