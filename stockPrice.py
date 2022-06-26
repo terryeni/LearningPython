@@ -12,8 +12,5 @@ Welcome to Streamlit. Check out our demo in your browser.
 '''
 
 import yfinance as yf
-
 import yfinance as yf
-
-
 import bs4 as beautifulsoup
