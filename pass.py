@@ -1,13 +1,7 @@
-print("Enter your name: ", input())
-name = input()
-password = ("swordfish")
+# keep asking for name until the correct value entered
 
-if name == "Mary":
-    print("Hello, Mary")
-    if password == 'swordfish':
-        print("Access granted.")
-    else:
-        print("Wrong password")
-
-
-quit()
+name = ''
+while name != 'your name':
+    print('Please type your name. ')
+    name = input()
+print('Thank you!')
